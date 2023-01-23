@@ -1,0 +1,9 @@
+{
+    "require": {
+        "scriptotek/google-books": "^0.2.5",
+        "sunra/php-simple-html-dom-parser": "^1.5",
+        "symfony/dom-crawler": "^5.4",
+        "symfony/css-selector": "^5.4",
+        "phpoffice/phpspreadsheet": "^1.26"
+    }
+}

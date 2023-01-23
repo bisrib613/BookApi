@@ -1,0 +1,81 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "8FditAEACAAJ",
+      "etag": "aECDNhqY09M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8FditAEACAAJ",
+      "volumeInfo": {
+        "title": "Evidence-based Practice in Nursing & Healthcare",
+        "subtitle": "A Guide to Best Practice",
+        "authors": [
+          "Bernadette Mazurek Melnyk",
+          "Ellen Fineout-Overholt"
+        ],
+        "publisher": "LWW",
+        "publishedDate": "2018-10",
+        "description": "Evidence-Based Practice in Nursing & Healthcare: A Guide to Best Practice, 4th Edition Bernadette Mazurek Melnyk, PhD, RN, APRN-CNP, FAANP, FNAP, FAAN and Ellen Fineout-Overholt, PhD, RN, FNAP, FAAN Enhance your clinical decision-making capabilities and improve patient outcomes through evidence-based practice. Develop the skills and knowledge you need to make evidence-based practice (EBP) an integral part of your clinical decision-making and everyday nursing practice with this proven, approachable text. Written in a straightforward, conversational style, Evidence-Based Practice in Nursing & Healthcare delivers real-world examples and meaningful strategies in every chapter to help you confidently meet today's clinical challenges and ensure positive patient outcomes. NEW! Making Connections: An EBP Exemplar opens each unit, immersing you in an unfolding case study of EBP in real-life practice. NEW! Chapters reflect the most current implications of EBP on health policy and the context, content, and outcomes of implementing EBP competencies in clinical and academic settings. NEW! Learning objectives and EBP Terms to Learn at both the unit and chapter levels help you study efficiently and stay focused on essential concepts and vocabulary. Making EBP Real features continue to end each unit with real-world examples that demonstrate the principles of EBP applied. EBP Fast Facts reinforce key points at a glance. Clinical Scenarios clarify the EBP process and enhance your rapid appraisal capabilities.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1496384539"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781496384539"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 823,
+        "printType": "BOOK",
+        "categories": [
+          "Medical"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8FditAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8FditAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.id/books?id=8FditAEACAAJ&dq=isbn:1496384539&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.co.id/books?id=8FditAEACAAJ&dq=isbn:1496384539&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Evidence_based_Practice_in_Nursing_Healt.html?hl=&id=8FditAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8FditAEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Develop the skills and knowledge you need to make evidence-based practice (EBP) an integral part of your clinical decision-making and everyday nursing practice with this proven, approachable text."
+      }
+    }
+  ]
+}

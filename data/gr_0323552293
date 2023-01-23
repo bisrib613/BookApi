@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+      <key><![CDATA[VAmrmu8kBvhLOiqzQxrpNg]]></key>
+    <method><![CDATA[book_isbn]]></method>
+  </Request>
+  <book>
+  <id>41155108</id>
+  <title>Gordis Epidemiology</title>
+  <isbn><![CDATA[0323552293]]></isbn>
+  <isbn13><![CDATA[9780323552295]]></isbn13>
+  <asin><![CDATA[]]></asin>
+  <kindle_asin><![CDATA[]]></kindle_asin>
+  <marketplace_id><![CDATA[]]></marketplace_id>
+  <country_code><![CDATA[ID]]></country_code>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1539085283l/41155108._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1539085283l/41155108._SX50_.jpg</small_image_url>
+  <publication_year>2018</publication_year>
+  <publication_month>11</publication_month>
+  <publication_day>26</publication_day>
+  <publisher>Elsevier</publisher>
+  <language_code></language_code>
+  <is_ebook>false</is_ebook>
+  <description><![CDATA[From the Department of Epidemiology at Johns Hopkins University and continuing in the tradition of award-winning educator and epidemiologist Dr. Leon Gordis, comes the fully revised 6th Edition of <i>Gordis Epidemiology</i>. This bestselling text provides <b>a solid introduction to basic epidemiologic principles</b> as well as <b>practical applications </b>in public health and clinical practice, highlighted by real-world examples throughout. New coverage includes <b>expanded information on genetic epidemiology, epidemiology and public policy, </b>and<b> ethical and professional issues in epidemiology, </b> providing a strong basis for understanding the role and importance of epidemiology in today's data-driven society.<br /><br />Covers the basic principles and concepts of epidemiology in a clear, uniquely memorable way, using a wealth of <b>full-color figures, graphs, charts, and cartoons</b> to help you understand and retain key information.<br /><b>Reflects how epidemiology is practiced today</b>, with a new chapter organization progressing from observation and developing hypotheses to data collection and analyses. Features <b>new end-of-chapter questions</b> for quick self-assessment, and a <b>glossary </b>of genetic terminology. Provides <b>more than 200 additional multiple-choice epidemiology self-assessment questions online.</b><br /><br /><b>Enhanced eBook version included with purchase.</b> Your enhanced eBook allows you to access all of the text, figures, and references from the book on a variety of devices.]]></description>
+  <work>
+  <id type="integer">64329252</id>
+  <books_count type="integer">7</books_count>
+  <best_book_id type="integer">42654601</best_book_id>
+  <reviews_count type="integer">329</reviews_count>
+  <ratings_sum type="integer">320</ratings_sum>
+  <ratings_count type="integer">79</ratings_count>
+  <text_reviews_count type="integer">9</text_reviews_count>
+  <original_publication_year type="integer" nil="true"/>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <original_title></original_title>
+  <original_language_id type="integer" nil="true"/>
+  <media_type>book</media_type>
+  <rating_dist>5:29|4:31|3:14|2:4|1:1|total:79</rating_dist>
+  <desc_user_id type="integer">-51</desc_user_id>
+  <default_chaptering_book_id type="integer" nil="true"/>
+  <default_description_language_code nil="true"/>
+  <work_uri>kca://work/amzn1.gr.work.v1.qTpGKaTXaLRpVZnY-j96EA</work_uri>
+</work>
+  <average_rating>4.05</average_rating>
+  <num_pages><![CDATA[433]]></num_pages>
+  <format><![CDATA[Paperback]]></format>
+  <edition_information><![CDATA[]]></edition_information>
+  <ratings_count><![CDATA[22]]></ratings_count>
+  <text_reviews_count><![CDATA[2]]></text_reviews_count>
+  <url><![CDATA[https://www.goodreads.com/book/show/41155108-gordis-epidemiology]]></url>
+  <link><![CDATA[https://www.goodreads.com/book/show/41155108-gordis-epidemiology]]></link>
+  <authors>
+<author>
+<id>4254915</id>
+<name>David D. Celentano</name>
+<role></role>
+<image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+</image_url>
+<small_image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/4254915.David_D_Celentano]]></link>
+<average_rating>4.06</average_rating>
+<ratings_count>80</ratings_count>
+<text_reviews_count>9</text_reviews_count>
+</author>
+<author>
+<id>2956308</id>
+<name>Moyses Szklo</name>
+<role></role>
+<image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+</image_url>
+<small_image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/2956308.Moyses_Szklo]]></link>
+<average_rating>4.02</average_rating>
+<ratings_count>120</ratings_count>
+<text_reviews_count>11</text_reviews_count>
+</author>
+</authors>
+
+    <reviews_widget>
+      <![CDATA[
+        <style>
+  #goodreads-widget {
+    font-family: georgia, serif;
+    padding: 18px 0;
+    width:565px;
+  }
+  #goodreads-widget h1 {
+    font-weight:normal;
+    font-size: 16px;
+    border-bottom: 1px solid #BBB596;
+    margin-bottom: 0;
+  }
+  #goodreads-widget a {
+    text-decoration: none;
+    color:#660;
+  }
+  iframe{
+    background-color: #fff;
+  }
+  #goodreads-widget a:hover { text-decoration: underline; }
+  #goodreads-widget a:active {
+    color:#660;
+  }
+  #gr_footer {
+    width: 100%;
+    border-top: 1px solid #BBB596;
+    text-align: right;
+  }
+  #goodreads-widget .gr_branding{
+    color: #382110;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+</style>
+<div id="goodreads-widget">
+  <div id="gr_header"><h1><a rel="nofollow" href="https://www.goodreads.com/book/show/41155108-gordis-epidemiology">Gordis Epidemiology Reviews</a></h1></div>
+  <iframe sandbox id="the_iframe" src="https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0323552293&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000" width="565" height="400" frameborder="0"></iframe>
+  <div id="gr_footer">
+    <a class="gr_branding" target="_blank" rel="nofollow noopener noreferrer" href="https://www.goodreads.com/book/show/41155108-gordis-epidemiology?utm_medium=api&amp;utm_source=reviews_widget">Reviews from Goodreads.com</a>
+  </div>
+</div>
+
+      ]]>
+    </reviews_widget>
+  <popular_shelves>
+      <shelf name="currently-reading" count="128"/>
+      <shelf name="to-read" count="57"/>
+      <shelf name="public-health" count="8"/>
+      <shelf name="epidemiology" count="2"/>
+      <shelf name="science" count="2"/>
+      <shelf name="medicine" count="1"/>
+      <shelf name="medical-sciences" count="1"/>
+      <shelf name="school" count="1"/>
+      <shelf name="sci-medical" count="1"/>
+      <shelf name="data" count="1"/>
+      <shelf name="professional-development" count="1"/>
+      <shelf name="books-required-for-school" count="1"/>
+      <shelf name="assigned-reading" count="1"/>
+      <shelf name="science-tech" count="1"/>
+      <shelf name="owned-dig" count="1"/>
+      <shelf name="key-work" count="1"/>
+      <shelf name="non-fiction" count="1"/>
+      <shelf name="stopped" count="1"/>
+      <shelf name="research" count="1"/>
+      <shelf name="nonfiction" count="1"/>
+      <shelf name="favorites" count="1"/>
+      <shelf name="uni" count="1"/>
+      <shelf name="skills" count="1"/>
+      <shelf name="owned" count="1"/>
+      <shelf name="healthcare" count="1"/>
+      <shelf name="education-research" count="1"/>
+      <shelf name="medicine-research" count="1"/>
+      <shelf name="medicine-shelf" count="1"/>
+      <shelf name="healthcare-and-business" count="1"/>
+      <shelf name="medicina" count="1"/>
+      <shelf name="fin-nonfiction" count="1"/>
+      <shelf name="academics" count="1"/>
+      <shelf name="mha-reading" count="1"/>
+      <shelf name="focus" count="1"/>
+      <shelf name="medicale" count="1"/>
+      <shelf name="study" count="1"/>
+      <shelf name="not-interested" count="1"/>
+      <shelf name="to-delete" count="0"/>
+      <shelf name="textbooks" count="0"/>
+      <shelf name="study-next" count="0"/>
+      <shelf name="public-health-medicine" count="0"/>
+      <shelf name="academia" count="0"/>
+      <shelf name="2020-books" count="0"/>
+  </popular_shelves>
+  <book_links>
+    <book_link>
+  <id>8</id>
+  <name>Libraries</name>
+  <link>https://www.goodreads.com/book_link/follow/8</link>
+</book_link>
+
+  </book_links>
+  <buy_links>
+    <buy_link>
+<id>1</id>
+<name>Amazon</name>
+<link>https://www.goodreads.com/book_link/follow/1</link>
+</buy_link>
+<buy_link>
+<id>10</id>
+<name>Audible</name>
+<link>https://www.goodreads.com/book_link/follow/10</link>
+</buy_link>
+<buy_link>
+<id>3</id>
+<name>Barnes &amp; Noble</name>
+<link>https://www.goodreads.com/book_link/follow/3</link>
+</buy_link>
+<buy_link>
+<id>4</id>
+<name>AbeBooks</name>
+<link>https://www.goodreads.com/book_link/follow/4</link>
+</buy_link>
+<buy_link>
+<id>1027</id>
+<name>Walmart eBooks</name>
+<link>https://www.goodreads.com/book_link/follow/1027</link>
+</buy_link>
+<buy_link>
+<id>2102</id>
+<name>Apple Books</name>
+<link>https://www.goodreads.com/book_link/follow/2102</link>
+</buy_link>
+<buy_link>
+<id>8036</id>
+<name>Google Play</name>
+<link>https://www.goodreads.com/book_link/follow/8036</link>
+</buy_link>
+<buy_link>
+<id>882</id>
+<name>Book Depository</name>
+<link>https://www.goodreads.com/book_link/follow/882</link>
+</buy_link>
+<buy_link>
+<id>5</id>
+<name>Alibris</name>
+<link>https://www.goodreads.com/book_link/follow/5</link>
+</buy_link>
+<buy_link>
+<id>9</id>
+<name>Indigo</name>
+<link>https://www.goodreads.com/book_link/follow/9</link>
+</buy_link>
+<buy_link>
+<id>107</id>
+<name>Better World Books</name>
+<link>https://www.goodreads.com/book_link/follow/107</link>
+</buy_link>
+<buy_link>
+<id>7</id>
+<name>IndieBound</name>
+<link>https://www.goodreads.com/book_link/follow/7</link>
+</buy_link>
+<buy_link>
+<id>92</id>
+<name>Thriftbooks</name>
+<link>https://www.goodreads.com/book_link/follow/92</link>
+</buy_link>
+
+  </buy_links>
+  <series_works>
+    
+  </series_works>
+  <similar_books>
+          <book>
+<id>408046</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.qLDu1HfK_4-cozHSHEL-GQ]]></uri>
+<title><![CDATA[Environmental Health: From Global to Local]]></title>
+<title_without_series><![CDATA[Environmental Health: From Global to Local]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/408046.Environmental_Health]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages>1108</num_pages>
+<work>
+<id>397352</id>
+</work>
+<isbn>0787973831</isbn>
+<isbn13>9780787973834</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2005</publication_year>
+<publication_month>8</publication_month>
+<publication_day>1</publication_day>
+<authors>
+<author>
+<id>137441</id>
+<name>Howard Frumkin</name>
+<link><![CDATA[https://www.goodreads.com/author/show/137441.Howard_Frumkin]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>7802054</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.0Ag7BUDXEhKid0qHF9Xs8w]]></uri>
+<title>Introduction to Epidemiology</title>
+<title_without_series>Introduction to Epidemiology</title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/7802054-introduction-to-epidemiology]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages>417</num_pages>
+<work>
+<id>10787989</id>
+</work>
+<isbn>0763766224</isbn>
+<isbn13>9780763766221</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2009</publication_year>
+<publication_month>7</publication_month>
+<publication_day>10</publication_day>
+<authors>
+<author>
+<id>594057</id>
+<name>Ray M. Merrill</name>
+<link><![CDATA[https://www.goodreads.com/author/show/594057.Ray_M_Merrill]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>27091</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.h2IAcwbQ4pgX_YVwWRgWSA]]></uri>
+<title><![CDATA[Teaching to Transgress: Education as the Practice of Freedom]]></title>
+<title_without_series><![CDATA[Teaching to Transgress: Education as the Practice of Freedom]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/27091.Teaching_to_Transgress]]></link>
+<small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403166974l/27091._SX50_.jpg]]></small_image_url>
+<image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403166974l/27091._SX98_.jpg]]></image_url>
+<num_pages>216</num_pages>
+<work>
+<id>27745</id>
+</work>
+<isbn>0415908086</isbn>
+<isbn13>9780415908085</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>1994</publication_year>
+<publication_month>9</publication_month>
+<publication_day>12</publication_day>
+<authors>
+<author>
+<id>10697</id>
+<name>bell hooks</name>
+<link><![CDATA[https://www.goodreads.com/author/show/10697.bell_hooks]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>72657</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.IRjqsCHtFsWYtucki1_GjA]]></uri>
+<title>Pedagogy of the Oppressed</title>
+<title_without_series>Pedagogy of the Oppressed</title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/72657.Pedagogy_of_the_Oppressed]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages>192</num_pages>
+<work>
+<id>915602</id>
+</work>
+<isbn>0826412769</isbn>
+<isbn13>9780826412768</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2000</publication_year>
+<publication_month>9</publication_month>
+<publication_day>1</publication_day>
+<authors>
+<author>
+<id>41108</id>
+<name>Paulo Freire</name>
+<link><![CDATA[https://www.goodreads.com/author/show/41108.Paulo_Freire]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>315701</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.h4BzdwdOCiovtC14Klka3g]]></uri>
+<title>Tools for Teaching</title>
+<title_without_series>Tools for Teaching</title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/315701.Tools_for_Teaching]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages>429</num_pages>
+<work>
+<id>306533</id>
+</work>
+<isbn>1555425682</isbn>
+<isbn13>9781555425685</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>1993</publication_year>
+<publication_month>10</publication_month>
+<publication_day>15</publication_day>
+<authors>
+<author>
+<id>181573</id>
+<name>Barbara Gross Davis</name>
+<link><![CDATA[https://www.goodreads.com/author/show/181573.Barbara_Gross_Davis]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>59454689</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v3.8ClpfV3RmbkHxrxS]]></uri>
+<title><![CDATA[McKeachie's Teaching Tips: Strategies, Research, and Theory for College and University Teachers, 14th Edition]]></title>
+<title_without_series><![CDATA[McKeachie's Teaching Tips: Strategies, Research, and Theory for College and University Teachers, 14th Edition]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/59454689-mckeachie-s-teaching-tips]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages></num_pages>
+<work>
+<id>93652005</id>
+</work>
+<isbn></isbn>
+<isbn13></isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year></publication_year>
+<publication_month></publication_month>
+<publication_day></publication_day>
+<authors>
+<author>
+<id>21951430</id>
+<name>Vinick Keach</name>
+<link><![CDATA[https://www.goodreads.com/author/show/21951430.Vinick_Keach]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>534753</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.btgdYLwwHrB-6udPUnqhhQ]]></uri>
+<title><![CDATA[Exile and Pride: Disability, Queerness, and Liberation]]></title>
+<title_without_series><![CDATA[Exile and Pride: Disability, Queerness, and Liberation]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/534753.Exile_and_Pride]]></link>
+<small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328770006l/534753._SY75_.jpg]]></small_image_url>
+<image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328770006l/534753._SX98_.jpg]]></image_url>
+<num_pages>147</num_pages>
+<work>
+<id>1112188</id>
+</work>
+<isbn>0896086054</isbn>
+<isbn13>9780896086050</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>1999</publication_year>
+<publication_month>9</publication_month>
+<publication_day>1</publication_day>
+<authors>
+<author>
+<id>295375</id>
+<name>Eli Clare</name>
+<link><![CDATA[https://www.goodreads.com/author/show/295375.Eli_Clare]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>18821141</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.ZqHxHEg_RlLnZpKqsGCcCg]]></uri>
+<title><![CDATA[Theory at a Glance: A Guide for Health Promotion Practice]]></title>
+<title_without_series><![CDATA[Theory at a Glance: A Guide for Health Promotion Practice]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/18821141-theory-at-a-glance]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages>62</num_pages>
+<work>
+<id>26762988</id>
+</work>
+<isbn>147762399X</isbn>
+<isbn13>9781477623992</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2012</publication_year>
+<publication_month>6</publication_month>
+<publication_day>8</publication_day>
+<authors>
+<author>
+<id>729027</id>
+<name>National Cancer Institute</name>
+<link><![CDATA[https://www.goodreads.com/author/show/729027.National_Cancer_Institute]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>854286</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.sfefBXFhvBu0t8HWH63xiQ]]></uri>
+<title><![CDATA[The Joy of Teaching: A Practical Guide for New College Instructors]]></title>
+<title_without_series><![CDATA[The Joy of Teaching: A Practical Guide for New College Instructors]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/854286.The_Joy_of_Teaching]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages>159</num_pages>
+<work>
+<id>839783</id>
+</work>
+<isbn>0807856037</isbn>
+<isbn13>9780807856031</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2005</publication_year>
+<publication_month>3</publication_month>
+<publication_day>1</publication_day>
+<authors>
+<author>
+<id>146471</id>
+<name>Peter G. Filene</name>
+<link><![CDATA[https://www.goodreads.com/author/show/146471.Peter_G_Filene]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>2951848</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.XOeH0a4QGO3RW6ikzbdJ0A]]></uri>
+<title><![CDATA[The Course Syllabus: A Learning-Centered Approach]]></title>
+<title_without_series><![CDATA[The Course Syllabus: A Learning-Centered Approach]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/2951848-the-course-syllabus]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages>160</num_pages>
+<work>
+<id>2981328</id>
+</work>
+<isbn>0470197617</isbn>
+<isbn13>9780470197615</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2008</publication_year>
+<publication_month>3</publication_month>
+<publication_day>1</publication_day>
+<authors>
+<author>
+<id>1274857</id>
+<name>Judith Grunert O&apos;Brien</name>
+<link><![CDATA[https://www.goodreads.com/author/show/1274857.Judith_Grunert_O_Brien]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>8552113</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.H_42pOxZexjahve8boRUKw]]></uri>
+<title><![CDATA[Teaching at Its Best: A Research-Based Resource for College Instructors]]></title>
+<title_without_series><![CDATA[Teaching at Its Best: A Research-Based Resource for College Instructors]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/8552113-teaching-at-its-best]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages>375</num_pages>
+<work>
+<id>605368</id>
+</work>
+<isbn>0470401044</isbn>
+<isbn13>9780470401040</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2010</publication_year>
+<publication_month>5</publication_month>
+<publication_day>17</publication_day>
+<authors>
+<author>
+<id>334621</id>
+<name>Linda B. Nilson</name>
+<link><![CDATA[https://www.goodreads.com/author/show/334621.Linda_B_Nilson]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>2326372</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.kyzRgeHRAxVf2Br1hOomng]]></uri>
+<title><![CDATA[On Course: A Week-By-Week Guide to Your First Semester of College Teaching]]></title>
+<title_without_series><![CDATA[On Course: A Week-By-Week Guide to Your First Semester of College Teaching]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/2326372.On_Course]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages>319</num_pages>
+<work>
+<id>2332931</id>
+</work>
+<isbn>0674028066</isbn>
+<isbn13>9780674028067</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2008</publication_year>
+<publication_month>5</publication_month>
+<publication_day>1</publication_day>
+<authors>
+<author>
+<id>574386</id>
+<name>James M. Lang</name>
+<link><![CDATA[https://www.goodreads.com/author/show/574386.James_M_Lang]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>76696</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.u-NAQf7kxp32-qKc6pfRMA]]></uri>
+<title><![CDATA[What the Best College Teachers Do]]></title>
+<title_without_series><![CDATA[What the Best College Teachers Do]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/76696.What_the_Best_College_Teachers_Do]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages>207</num_pages>
+<work>
+<id>74188</id>
+</work>
+<isbn>0674013255</isbn>
+<isbn13>9780674013254</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2004</publication_year>
+<publication_month>4</publication_month>
+<publication_day>28</publication_day>
+<authors>
+<author>
+<id>43607</id>
+<name>Ken Bain</name>
+<link><![CDATA[https://www.goodreads.com/author/show/43607.Ken_Bain]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>313605</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.ghUxFYT-RGQR-GniXQZn-Q]]></uri>
+<title><![CDATA[Getting to Yes: Negotiating Agreement Without Giving In]]></title>
+<title_without_series><![CDATA[Getting to Yes: Negotiating Agreement Without Giving In]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/313605.Getting_to_Yes]]></link>
+<small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631383737l/313605._SY75_.jpg]]></small_image_url>
+<image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631383737l/313605._SX98_.jpg]]></image_url>
+<num_pages>224</num_pages>
+<work>
+<id>1394134</id>
+</work>
+<isbn>0140157352</isbn>
+<isbn13>9780140157352</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>1991</publication_year>
+<publication_month>12</publication_month>
+<publication_day>1</publication_day>
+<authors>
+<author>
+<id>2838</id>
+<name>Roger Fisher</name>
+<link><![CDATA[https://www.goodreads.com/author/show/2838.Roger_Fisher]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>336142</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.6P2xaLJSnh5ku-8F482R2A]]></uri>
+<title><![CDATA[Epidemiology: Beyond the Basics]]></title>
+<title_without_series><![CDATA[Epidemiology: Beyond the Basics]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/336142.Epidemiology]]></link>
+<small_image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]></small_image_url>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+<num_pages>489</num_pages>
+<work>
+<id>326608</id>
+</work>
+<isbn>0763729272</isbn>
+<isbn13>9780763729271</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2006</publication_year>
+<publication_month>8</publication_month>
+<publication_day>21</publication_day>
+<authors>
+<author>
+<id>192786</id>
+<name>M. Szklo</name>
+<link><![CDATA[https://www.goodreads.com/author/show/192786.M_Szklo]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>51342431</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v3.WxpBwSnmZSwNgHm4]]></uri>
+<title>All I Want for Christmas</title>
+<title_without_series>All I Want for Christmas</title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/51342431-all-i-want-for-christmas]]></link>
+<small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596664602l/51342431._SX50_.jpg]]></small_image_url>
+<image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596664602l/51342431._SX98_.jpg]]></image_url>
+<num_pages>240</num_pages>
+<work>
+<id>76025140</id>
+</work>
+<isbn>0593179838</isbn>
+<isbn13>9780593179833</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2020</publication_year>
+<publication_month>11</publication_month>
+<publication_day>3</publication_day>
+<authors>
+<author>
+<id>161137</id>
+<name>Wendy Loggia</name>
+<link><![CDATA[https://www.goodreads.com/author/show/161137.Wendy_Loggia]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>31394393</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.aohV_l2FF96UVr7Rt_WEWA]]></uri>
+<title><![CDATA[Reach: A New Strategy to Help You Step Outside Your Comfort Zone, Rise to the Challenge and Build Confidence]]></title>
+<title_without_series><![CDATA[Reach: A New Strategy to Help You Step Outside Your Comfort Zone, Rise to the Challenge and Build Confidence]]></title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/31394393-reach]]></link>
+<small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471280942l/31394393._SX50_.jpg]]></small_image_url>
+<image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471280942l/31394393._SX98_.jpg]]></image_url>
+<num_pages>288</num_pages>
+<work>
+<id>52087331</id>
+</work>
+<isbn>0399574026</isbn>
+<isbn13>9780399574023</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2017</publication_year>
+<publication_month>1</publication_month>
+<publication_day>24</publication_day>
+<authors>
+<author>
+<id>6467970</id>
+<name>Andy Molinsky</name>
+<link><![CDATA[https://www.goodreads.com/author/show/6467970.Andy_Molinsky]]></link>
+</author>
+</authors>
+</book>
+
+          <book>
+<id>2231916</id>
+<uri><![CDATA[kca://book/amzn1.gr.book.v1.K61YUxVKz3tfAvxK3ey0oA]]></uri>
+<title>Cat and Canary</title>
+<title_without_series>Cat and Canary</title_without_series>
+<link><![CDATA[https://www.goodreads.com/book/show/2231916.Cat_and_Canary]]></link>
+<small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1321451678l/2231916._SX50_.jpg]]></small_image_url>
+<image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1321451678l/2231916._SX98_.jpg]]></image_url>
+<num_pages>32</num_pages>
+<work>
+<id>2237728</id>
+</work>
+<isbn>1842702874</isbn>
+<isbn13>9781842702871</isbn13>
+<average_rating>4.05</average_rating>
+<ratings_count>79</ratings_count>
+<publication_year>2003</publication_year>
+<publication_month>7</publication_month>
+<publication_day>28</publication_day>
+<authors>
+<author>
+<id>42136</id>
+<name>Michael Foreman</name>
+<link><![CDATA[https://www.goodreads.com/author/show/42136.Michael_Foreman]]></link>
+</author>
+</authors>
+</book>
+
+  </similar_books>
+  
+
+</book>
+
+</GoodreadsResponse>

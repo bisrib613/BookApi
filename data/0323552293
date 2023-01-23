@@ -1,0 +1,77 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "QrJ4ugEACAAJ",
+      "etag": "JFr4VK14tkM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QrJ4ugEACAAJ",
+      "volumeInfo": {
+        "title": "Gordis Epidemiology",
+        "authors": [
+          "David D. Celentano",
+          "Moyses Szklo"
+        ],
+        "publisher": "Elsevier",
+        "publishedDate": "2018-12-07",
+        "description": "From the Department of Epidemiology at Johns Hopkins University and continuing in the tradition of award-winning educator and epidemiologist Dr. Leon Gordis, comes the fully revised 6th Edition of Gordis Epidemiology. This bestselling text provides a solid introduction to basic epidemiologic principles as well as practical applications in public health and clinical practice, highlighted by real-world examples throughout. New coverage includes expanded information on genetic epidemiology, epidemiology and public policy, and ethical and professional issues in epidemiology, providing a strong basis for understanding the role and importance of epidemiology in today's data-driven society. Covers the basic principles and concepts of epidemiology in a clear, uniquely memorable way, using a wealth of full-color figures, graphs, charts, and cartoons to help you understand and retain key information. Reflects how epidemiology is practiced today, with a new chapter organization progressing from observation and developing hypotheses to data collection and analyses. Features new end-of-chapter questions for quick self-assessment, and a glossary of genetic terminology. Provides more than 200 additional multiple-choice epidemiology self-assessment questions online. Enhanced eBook version included with purchase. Your enhanced eBook allows you to access all of the text, figures, and references from the book on a variety of devices.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0323552293"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780323552295"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 433,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QrJ4ugEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QrJ4ugEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.id/books?id=QrJ4ugEACAAJ&dq=isbn:0323552293&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.co.id/books?id=QrJ4ugEACAAJ&dq=isbn:0323552293&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Gordis_Epidemiology.html?hl=&id=QrJ4ugEACAAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QrJ4ugEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Preceded by Epidemiology / Leon Gordis. Fifth edition. 2014."
+      }
+    }
+  ]
+}
