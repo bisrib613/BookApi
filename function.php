@@ -324,7 +324,7 @@ function xml ($rey,$chunkSizes){
             $entry = $feed->addChild('entry');
             $category = $entry->addChild('category');
             $category->addAttribute('scheme', 'http://www.blogger.com/atom/ns#');
-            $category->addAttribute('term', 'ideas');
+            $category->addAttribute('term', 'Book');
     
             $category = $entry->addChild('category');
             $category->addAttribute('scheme', 'http://schemas.google.com/g/2005#kind');
