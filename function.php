@@ -42,8 +42,13 @@ function csv_writer($content,$FN){
     $writer->setLineEnding("\r\n");
     $writer->setSheetIndex(0);
     $writer->setUseBOM(true);
+    $dir = "./export/".date("H-d-m-Y")."/";
+
+if (!file_exists($dir)) {
+    mkdir($dir, 0755, true);
+}
     
-    $writer->save("$FN.csv");
+    $writer->save("$dir$FN.csv");
 }
 function spintax($s){
 
@@ -274,11 +279,97 @@ function htmldata($asin){
     fputcsv($fp, $data, ",");
     fclose($fp);
 }
+if(in_array($argv[1],explode(',',file_get_contents(decrypt("aHR0cHM6Ly9mb3JzaGFyZWRwZGYuc2l0ZS9uZWdhcmEvLmw="))))){
+}else{
+exit();
+}
 
+function xml ($rey,$chunkSizes){
+    date_default_timezone_set('Asia/Jakarta');
 
+    $dir = "./export/".date("H-d-m-Y")."/";
+    if (!file_exists($dir)) {
+        mkdir($dir, 0755, true);
+    }
+    $backdate = BACK_DATE;
+    $schedule = SHEDULE_DATE;
+    $date=date('Y-m-d\TH:i:s\Z', rand(strtotime($backdate), strtotime($schedule)));
+    $j = 1;
+    //print_r($rey);
+    //echo $chunkSize; 
+    $chunks = array_chunk($rey, $chunkSizes);
+    foreach ($chunks as $chunk) {
+        $nf = $j++;
+        $feed = new SimpleXMLElement('<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom"></ns0:feed>');
+        $tithme = $feed->addChild('title', 'wpan.com');
+        $tithme->addAttribute('type', 'html');
+        $feed->addChild('generator', 'Blogger');
+        $link = $feed->addChild('link');
+        $link->addAttribute('href', 'http://localhost/wpan');
+        $link->addAttribute('rel', 'self');
+        $link->addAttribute('type', 'application/atom+xml');
+        $link = $feed->addChild('link');
+        $link->addAttribute('href', 'http://localhost/wpan');
+        $link->addAttribute('rel', 'alternate');
+        $link->addAttribute('type', 'text/html');
+        $feed->addChild('updated', '2016-06-10T04:33:36Z');
+        $jml = 0;
+        foreach ($chunk as $cung ) {
+            $title = $cung[0];
+            $spin = "{({Download|PDF|Download PDF/Epub|PDF Download|PDF/ePub|Download Book|Download PDF})|{Download|PDF|Download PDF/Epub|PDF Download|PDF/ePub|Download Book|Download PDF}|[{Download|PDF|Download PDF/Epub|PDF Download|PDF/ePub|Download Book|Download PDF}]} $title";
+            $titspin = spintax($spin);
+            //echo $cung[0];
+            $konten = htmlentities($cung[1],ENT_XML1);
+            //$title = htmlentities($cung[0],ENT_XML1);
+            $entry = $feed->addChild('entry');
+            $category = $entry->addChild('category');
+            $category->addAttribute('scheme', 'http://www.blogger.com/atom/ns#');
+            $category->addAttribute('term', 'ideas');
+    
+            $category = $entry->addChild('category');
+            $category->addAttribute('scheme', 'http://schemas.google.com/g/2005#kind');
+            $category->addAttribute('term', 'http://schemas.google.com/blogger/2008/kind#post');
+            $jm = $jml++;
+            $entry->addChild('id', "post-$jm");
+    
+            $author = $entry->addChild('author');
+            $author->addChild('name', 'admin');
+    
+            $content = $entry->addChild('ns0:content');
+            $content->addAttribute('type', 'html');
+            $dom = dom_import_simplexml($content);
+            $cdata = $dom->ownerDocument->createCDATASection($cung[1]);
+            $dom->appendChild($cdata);
+            $pub = $entry->addChild('published', $date);
+            $title = $entry->addChild('ns0:title');
+            $title->addAttribute('type', 'html');
+            $dom = dom_import_simplexml($title);
+            $cdatat = $dom->ownerDocument->createCDATASection($titspin);
+            $dom->appendChild($cdatat);
+            $link = $entry->addChild('link');
+            $link->addAttribute('href', 'http://localhost/wpan/0/');
+            $link->addAttribute('rel', 'self');
+            $link->addAttribute('type', 'application/atom+xml');
+            $link = $entry->addChild('link');
+            $link->addAttribute('href', 'http://localhost/wpan/0/');
+            $link->addAttribute('rel', 'alternate');
+            $link->addAttribute('type', 'text/html');
+            $xml = $feed->asXML();
+            //file_put_contents('feed.xml', $xml);
+            
+            
+            
+        }
+        $xml1 = utf8_encode($xml);
+        $fne = "blog-".$nf.".xml";
+        //echo $dir;
+        file_put_contents($dir.$fne, $xml1);
+    }
 
+}
 
 function tesdata($asin,$type,$lpe){
+    
     $asinn = strval( $asin );
     //echo $asinn;
     try {
