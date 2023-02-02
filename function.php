@@ -277,6 +277,7 @@ exit();
 }
 
 function xml ($rey,$chunkSizes){
+    header('Content-type: text/xml; charset=utf-8');
     date_default_timezone_set('Asia/Jakarta');
 
     $dir = "./export/".date("H-d-m-Y")."/";
@@ -362,10 +363,13 @@ function xml ($rey,$chunkSizes){
             
             
         }
+        
         $xml1 = utf8_encode($xml);
         $fne = "blog-".$nf.".xml";
         //echo $dir;
-        file_put_contents($dir.$fne, $xml1);
+        header('Content-Type: text/xml; charset=UTF-8');
+        file_put_contents($dir.$fne, $xml);
+        //file_put_contents($dir.$fne, $xml1, FILE_TEXT | LOCK_EX);
     }
 
 }
