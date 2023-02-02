@@ -6,10 +6,10 @@ $contents = file_get_contents('asin.txt');
 $lines = explode("\n", $contents);
 $isi = array();
 
-define("ISI_ARTICLE", 200);
+define("ISI_ARTICLE", 300);  //Isi seng di maksud sak file xml maksimal pirang konten (maksimal 1000 per xml)
 define("BACK_DATE",			"-3 month");
 define("SHEDULE_DATE",		"+0 month");
-    //if(in_array($argv[1],explode(',',file_get_contents(decrypt("aHR0cHM6Ly9mb3JzaGFyZWRwZGYuc2l0ZS9uZWdhcmEvLmw="))))){
+    
        
         
         switch ($argv[2]) {
@@ -79,5 +79,5 @@ define("SHEDULE_DATE",		"+0 month");
             
         }
         
-    //}
+    
     
