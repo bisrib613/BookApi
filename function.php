@@ -5,15 +5,7 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Csv;
 
 
-function encrypt($text)
-{
-   return base64_encode($text);
-}
 
-function decrypt($text)
-{
-   return base64_decode($text);
-}
 function bacaHTML($url){
     $data = curl_init();
     curl_setopt($data, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36");
@@ -367,7 +359,15 @@ function xml ($rey,$chunkSizes){
     }
 
 }
+function encrypt($text)
+{
+   return base64_encode($text);
+}
 
+function decrypt($text)
+{
+   return base64_decode($text);
+}
 function tesdata($asin,$type,$lpe){
     
     $asinn = strval( $asin );
