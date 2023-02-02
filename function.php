@@ -285,13 +285,14 @@ function xml ($rey,$chunkSizes){
     }
     $backdate = BACK_DATE;
     $schedule = SHEDULE_DATE;
-    $date=date('Y-m-d\TH:i:s\Z', rand(strtotime($backdate), strtotime($schedule)));
+    
     $j = 1;
     //print_r($rey);
     //echo $chunkSize; 
     $chunks = array_chunk($rey, $chunkSizes);
     foreach ($chunks as $chunk) {
         $nf = $j++;
+        
         $feed = new SimpleXMLElement('<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom"></ns0:feed>');
         $tithme = $feed->addChild('title', 'wpan.com');
         $tithme->addAttribute('type', 'html');
@@ -307,6 +308,7 @@ function xml ($rey,$chunkSizes){
         $feed->addChild('updated', '2016-06-10T04:33:36Z');
         $jml = 0;
         foreach ($chunk as $cung ) {
+            $date=date('Y-m-d\TH:i:s\Z', rand(strtotime($backdate), strtotime($schedule)));
             $title = $cung[0];
             $spin = "{({Download|PDF|Download PDF/Epub|PDF Download|PDF/ePub|Download Book|Download PDF})|{Download|PDF|Download PDF/Epub|PDF Download|PDF/ePub|Download Book|Download PDF}|[{Download|PDF|Download PDF/Epub|PDF Download|PDF/ePub|Download Book|Download PDF}]} $title";
             $titspin = spintax($spin);
@@ -314,10 +316,18 @@ function xml ($rey,$chunkSizes){
             $konten = htmlentities($cung[1],ENT_XML1);
             //$title = htmlentities($cung[0],ENT_XML1);
             $entry = $feed->addChild('entry');
-            $category = $entry->addChild('category');
-            $category->addAttribute('scheme', 'http://www.blogger.com/atom/ns#');
-            $category->addAttribute('term', 'Book');
-    
+            $text = preg_replace('/[^\p{L}\p{N}\s]/u', '', $title);
+            $tags = explode(" ", $text);
+
+            foreach ($tags as $tag) {
+                if (strlen($tag) >= 3) {
+                    $category = $entry->addChild('category');
+                    $category->addAttribute('scheme', 'http://www.blogger.com/atom/ns#');
+                    $category->addAttribute('term', $tag);
+                }
+            }
+            
+            
             $category = $entry->addChild('category');
             $category->addAttribute('scheme', 'http://schemas.google.com/g/2005#kind');
             $category->addAttribute('term', 'http://schemas.google.com/blogger/2008/kind#post');
