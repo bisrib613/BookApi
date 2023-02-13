@@ -1,83 +1,44 @@
 <?php		
 error_reporting(1);
 require "GoodReads.php";
-require_once "function.php";
+require_once "func.php";
 $contents = file_get_contents('asin.txt');
 $lines = explode("\n", $contents);
-$isi = array();
-
-define("ISI_ARTICLE", 300);  //Isi seng di maksud sak file xml maksimal pirang konten (maksimal 1000 per xml)
-define("BACK_DATE",			"-3 month");
-define("SHEDULE_DATE",		"+0 month");
-    
+$tw = file_get_contents('blade/tw.txt');
+define("RANDOM_TEMPLATE","YES");
+define("ISI_ARTICLE", 1000);  //Isi seng di maksud sak file xml maksimal pirang konten (maksimal 1000 per xml)
+define("BACK_DATE",			            "-3 month");
+define("SHEDULE_DATE",		            "+0 month");
+define("LP",               "https://neobook.tech/");
        
-        
-        switch ($argv[2]) {
-            case 'pixnet':
-                foreach($lines as $v){
-            
-                    $sin = trim($v);
-                    $isian = tesdata($sin,"pixnet",$argv[1]);
-                    if($isian){
-                        $isi[] = $isian;
-                        
-                    }
-                    
-                }
-                csv_writer($isi,"Datapix");
-                echo "\nTotal Line Csv ".count($isi);
-            break;
-            case 'sonclod':
-                foreach($lines as $v){
-            
-                    $sin = trim($v);
-                    $isian = tesdata($sin,"sonclod",$argv[1]);
-                    if($isian){
-                        $isi[] = $isian;
-                        
-                    }
-                    
-                }
-                csv_writer($isi,"Datason");
-                echo "\nTotal Line Csv ".count($isi);
-            break;
-            case 'all':
-                foreach($lines as $v){
-            
-                    $sin = trim($v);
-                    $isian = tesdata($sin,"sonclod",$argv[1]);
-                    $isianp = tesdata($sin,"pixnet",$argv[1]);
-                    if($isian){
-                        $isi[] = $isian;
-                        $isip[] = $isianp;
 
-                        
-                    }
-                    
-                }
-                csv_writer($isi,"Datason");
-                csv_writer($isip,"DataPix");
-                xml($isip,ISI_ARTICLE);
-                echo "\nTotal Line Csv ".count($isi);
-            break;
-            case 'xml':
-                foreach($lines as $v){
-            
-                    $sin = trim($v);
-                    $isian = tesdata($sin,"pixnet",$argv[1]);
-                    if($isian){
-                        $isi[] = $isian;
-                        
-                    }
-                    
-                }
-                xml($isi,ISI_ARTICLE);
-                //echo "\nTotal Line Csv ".count($isi);
-            break;
+
+echo $tw;
+
+switch ($argv[1]) {
+    case 'pixnet':
+        $data = goodapii("pixnet",LP);
+        csv_writer($data,"Datapix");
+        echo "\nTotal Line Csv ".count($data);
+    break;
+    case 'sonclod':
+        $data = goodapii("sonclod",LP);
+        csv_writer($data,"Datason");
+        echo "\nTotal Line Csv ".count($data);
+    break;
+    case 'all':
         
-            
-            
-        }
-        
-    
+        $data1 = goodapii("pixnet",LP);
+        $data = goodapii("sonclod",LP);
+        csv_writer($data1,"Datapix");
+        csv_writer($data,"Datason");
+        xml($data1,ISI_ARTICLE);
+        echo "\nTotal Line Csv ".count($data1);
+    break;
+    case 'xml':
+        $data = goodapii("pixnet",LP);
+        xml($data,ISI_ARTICLE);
+       
+    break;
+}
     
