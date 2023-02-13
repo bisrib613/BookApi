@@ -13,7 +13,7 @@ define("LP",               "https://neobook.tech/");
        
 
 
-echo $tw;
+echo $tw."\n";
 
 switch ($argv[1]) {
     case 'pixnet':
