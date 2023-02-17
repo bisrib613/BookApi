@@ -4,6 +4,8 @@
         "sunra/php-simple-html-dom-parser": "^1.5",
         "symfony/dom-crawler": "^5.4",
         "symfony/css-selector": "^5.4",
-        "phpoffice/phpspreadsheet": "^1.26"
+        "phpoffice/phpspreadsheet": "^1.26",
+        "tecnickcom/tcpdf": "^6.6",
+        "dompdf/dompdf": "^2.0"
     }
 }
