@@ -26,6 +26,11 @@ switch ($argv[1]) {
         csv_writer($data,"Datason");
         echo "\nTotal Line Csv ".count($data);
     break;
+    case 'pdf':
+        $data = goodapii("pdf",LP);
+        
+        echo "\nTotal Line Csv ".count($data);
+    break;
     case 'all':
         
         $data1 = goodapii("pixnet",LP);
