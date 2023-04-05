@@ -31,8 +31,7 @@ class Spintax
 
 /* EXAMPLE USAGE */
 $spintax = new Spintax();
-$string = '{Hello|Howdy|Hola} to you, {Mr.|Mrs.|Ms.} {Smith|Williams|Davis}!';
-echo $spintax->process($string);
+//$string = '{Hello|Howdy|Hola} to you, {Mr.|Mrs.|Ms.} {Smith|Williams|Davis}!';
+//echo $spintax->process($string);
 
 /* NESTED SPINNING EXAMPLE */
-echo $spintax->process('{Hello|Howdy|Hola} to you, {Mr.|Mrs.|Ms.} {{Jason|Malina|Sara}|Williams|Davis}');
