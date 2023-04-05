@@ -6,15 +6,51 @@ $contents = file_get_contents('asin.txt');
 $lines = explode("\n", $contents);
 $tw = file_get_contents('blade/tw.txt');
 define("RANDOM_TEMPLATE","YES");
-define("ISI_ARTICLE", 1000);  //Isi seng di maksud sak file xml maksimal pirang konten (maksimal 1000 per xml)
+define("ISI_ARTICLE", 500);  //Isi seng di maksud sak file xml maksimal pirang konten (maksimal 1000 per xml)
 define("BACK_DATE",			            "-3 month");
 define("SHEDULE_DATE",		            "+0 month");
 define("LP",               "https://neobook.tech/");
-       
 
 
-echo $tw."\n";
 
+
+
+
+
+
+setlocale(LC_TIME, 'id_ID');
+date_default_timezone_set('Asia/Jakarta');
+$foldername = readline("Enter Folder Export Name: ");
+$dir = "export/$foldername/";
+if ($foldername == null){
+    $day = strftime("%B");
+    $date = date("H-d-m-Y")."/";
+    $dir = "export/$date";
+}
+        
+if (!file_exists($dir)) {
+    mkdir($dir, 0755, true);
+    
+    //mkdir($pdf_dir, 0755, true);
+}
+
+$filter = '';
+$blog = '';
+
+// Loop through all the arguments
+foreach ($argv as $arg) {
+  // Check if the argument is in the format --key=value
+  if (strpos($arg, '--') === 0 && strpos($arg, '=') !== false) {
+    // Split the argument into key and value
+    list($key, $value) = explode('=', substr($arg, 2), 2);
+    // Save the value to the corresponding variable
+    ${$key} = $value;
+  }
+}
+
+
+$badWords = file('badwords.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);echo $tw."\n";
+$RanClass = RandomString(5);
 switch ($argv[1]) {
     case 'pixnet':
         $data = goodapii("pixnet",LP);
@@ -28,6 +64,7 @@ switch ($argv[1]) {
     break;
     case 'pdf':
         $data = goodapii("pdf",LP);
+        csv_writer($data,"Data");
         
         echo "\nTotal Line Csv ".count($data);
     break;
