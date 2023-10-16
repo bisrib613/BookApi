@@ -9,9 +9,10 @@ define("RANDOM_TEMPLATE","YES");
 define("ISI_ARTICLE", 500);  //Isi seng di maksud sak file xml maksimal pirang konten (maksimal 1000 per xml)
 define("BACK_DATE",			            "-3 month");
 define("SHEDULE_DATE",		            "+0 month");
-define("LP",               "https://neobook.tech/");
+define("LP",               "https://easyreader.site/");
 
-
+define("MAX_HEIGHT",			            420);
+define("MAX_WIDTH",		            380);
 
 
 
@@ -68,6 +69,16 @@ switch ($argv[1]) {
         
         echo "\nTotal Line Csv ".count($data);
     break;
+    case 'pin':
+        $data = goodapii("pin",LP);
+        csv_writer($data,"Data");
+        
+        
+        
+        //csv_writer($data,"pin");
+        
+        echo "\nTotal Line Csv ".count($data);
+    break;
     case 'all':
         
         $data1 = goodapii("pixnet",LP);
@@ -80,7 +91,6 @@ switch ($argv[1]) {
     case 'xml':
         $data = goodapii("pixnet",LP);
         xml($data,ISI_ARTICLE);
-       
     break;
 }
     
