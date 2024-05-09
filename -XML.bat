@@ -2,5 +2,5 @@
 cls
 set real_path=%~DP0
 :start
-composer update
+php apigr.php xml
 pause

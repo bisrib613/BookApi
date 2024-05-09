@@ -1,12 +1,12 @@
 <?php		
 error_reporting(1);
 require "GoodReads.php";
-require_once "func.php";
+require_once "funcc.php";
 $contents = file_get_contents('asin.txt');
 $lines = explode("\n", $contents);
 $tw = file_get_contents('blade/tw.txt');
-define("RANDOM_TEMPLATE","YES");
-define("ISI_ARTICLE", 500);  //Isi seng di maksud sak file xml maksimal pirang konten (maksimal 1000 per xml)
+define("RANDOM_TEMPLATE","NO");
+define("ISI_ARTICLE", 2000);  //Isi seng di maksud sak file xml maksimal pirang konten (maksimal 1000 per xml)
 define("BACK_DATE",			            "-3 month");
 define("SHEDULE_DATE",		            "+0 month");
 define("LP",               "https://easyreader.site/");
@@ -91,6 +91,10 @@ switch ($argv[1]) {
     case 'xml':
         $data = goodapii("pixnet",LP);
         xml($data,ISI_ARTICLE);
+    break;
+    case 'csvh':
+        $data = goodapii("pixnet",LP);
+        csvheader($data,ISI_ARTICLE);
     break;
 }
     

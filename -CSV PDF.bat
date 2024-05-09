@@ -1,4 +1,4 @@
-@echo OFF
+@echo ON
 cls
 set real_path=%~DP0
 :start
