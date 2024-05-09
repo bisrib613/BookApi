@@ -1,7 +1,7 @@
 <?php		
 error_reporting(1);
 require "GoodReads.php";
-require_once "funcc.php";
+require_once "func.php";
 $contents = file_get_contents('asin.txt');
 $lines = explode("\n", $contents);
 $tw = file_get_contents('blade/tw.txt');
