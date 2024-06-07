@@ -1,15 +1,20 @@
 <?php		
 error_reporting(1);
 require "GoodReads.php";
-require_once "func.php";
+require_once "fungsi2.php";
 $contents = file_get_contents('asin.txt');
 $lines = explode("\n", $contents);
 $tw = file_get_contents('blade/tw.txt');
-define("RANDOM_TEMPLATE","NO");
-define("ISI_ARTICLE", 2000);  //Isi seng di maksud sak file xml maksimal pirang konten (maksimal 1000 per xml)
+
+
+
+
+define("TEMPLATE_PDF",array("tema_0"));
+define("TEMPLATE",array("tema_0"));
+define("ISI_ARTICLE", 2000);  
 define("BACK_DATE",			            "-3 month");
 define("SHEDULE_DATE",		            "+0 month");
-define("LP",               "https://easyreader.site/");
+define("LP",               "https://neobook.tech/");
 
 define("MAX_HEIGHT",			            420);
 define("MAX_WIDTH",		            380);
@@ -56,18 +61,18 @@ switch ($argv[1]) {
     case 'pixnet':
         $data = goodapii("pixnet",LP);
         csv_writer($data,"Datapix");
-        echo "\nTotal Line Csv ".count($data);
+        echo "\nTotal Line Csv ".count($data)."\n";
     break;
     case 'sonclod':
         $data = goodapii("sonclod",LP);
         csv_writer($data,"Datason");
-        echo "\nTotal Line Csv ".count($data);
+        echo "\nTotal Line Csv ".count($data)."\n";
     break;
     case 'pdf':
         $data = goodapii("pdf",LP);
         csv_writer($data,"Data");
-        
-        echo "\nTotal Line Csv ".count($data);
+        //print_r($data);
+        echo "\nTotal Line Csv ".count($data)."\n";
     break;
     case 'pin':
         $data = goodapii("pin",LP);
@@ -75,7 +80,7 @@ switch ($argv[1]) {
         
         
         
-        //csv_writer($data,"pin");
+        
         
         echo "\nTotal Line Csv ".count($data);
     break;
