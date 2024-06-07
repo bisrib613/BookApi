@@ -1,0 +1,13 @@
+<p style="text-align: center;">#T# By #A#</p>
+<p>&nbsp;</p>
+<figure><img style="display: block; margin-left: auto; margin-right: auto;" src="#IMG#" alt="[PDF] #T# By #A#" width="395" height="483" />
+<figcaption style="text-align: center;
+    margin-top: 10px;">[PDF] Download #T# By #A#</figcaption>
+</figure>
+
+<p>Get Here : <a href="#U#" target="_blank" rel="noopener ugc nofollow">#U#</a></p>
+<p>&nbsp;</p>
+
+<div id="Description">#D#</div>
+<div id="ureview"></div>
+<p>Download PDF #T# By : #A#<br />PDF/Ebook #T# By : #A#<br />PDF #T# By : #A#<br />DOWNLOAD PDF #T# By : #A#<br />READ PDF #T# By : #A#</p>
