@@ -8,8 +8,14 @@ $tw = file_get_contents('blade/tw.txt');
 
 
 
+//Multi template pisah nggae koma
+//conto define("TEMPLATE_PDF",array("tema_1","tema_0","tema_2"));
+//conto ke 2 define("TEMPLATE",array("tema_1","tema_0","tema_2"));
 
-define("TEMPLATE_PDF",array("tema_0"));
+// "TEMPLATE_PDF" NGGE PDF
+// "TEMPLATE" NGGE HTML
+
+define("TEMPLATE_PDF",array("tema_1"));
 define("TEMPLATE",array("tema_0"));
 define("ISI_ARTICLE", 2000);  
 define("BACK_DATE",			            "-3 month");
