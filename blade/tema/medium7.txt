@@ -1,0 +1,9 @@
+<div style="display: flex; align-items: center;">
+    <div>
+        <p><a href="#U#">GET HERE</a></p>
+        <p>DESCRIPTION BOOK:</p>
+        <br>
+        <p>#D#</p>
+    </div>
+    <img src="#IMG#" alt="#T# PDF" width="265" height="400" style="margin-left: 20px;" />
+</div>

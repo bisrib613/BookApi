@@ -1,0 +1,8 @@
+<div style="border-radius: 15px; padding: 10px; border: 1px solid #ddd;">
+    <p><a href="#U#">GET HERE</a></p>
+    <p><img src="#IMG#" alt="#T# PDF" width="265" height="400" style="border-radius: 10px;" /></p>
+    <p>&nbsp;</p>
+    <p>DESCRIPTION BOOK:</p>
+    <br>
+    <p>#D#</p>
+</div>

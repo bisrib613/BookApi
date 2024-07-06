@@ -1,0 +1,8 @@
+<div style="background-color: #333; color: #fff; padding: 10px; border-radius: 5px;">
+    <p><a href="#U#" style="color: #ff5722;">GET HERE</a></p>
+    <p><img src="#IMG#" alt="#T# PDF" width="265" height="400" /></p>
+    <p>&nbsp;</p>
+    <p>DESCRIPTION BOOK:</p>
+    <br>
+    <p>#D#</p>
+</div>

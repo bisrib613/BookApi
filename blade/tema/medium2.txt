@@ -1,0 +1,8 @@
+<div style="text-align: center; padding: 10px;">
+    <p><a href="#U#">GET HERE</a></p>
+    <p><img src="#IMG#" alt="#T# PDF" width="265" height="400" /></p>
+    <p>&nbsp;</p>
+    <p>DESCRIPTION BOOK:</p>
+    <br>
+    <p>#D#</p>
+</div>
