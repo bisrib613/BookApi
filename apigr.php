@@ -1,26 +1,22 @@
 <?php		
 error_reporting(1);
 require "GoodReads.php";
-require_once "func.php";
+require_once "fungsi2.php";
 $contents = file_get_contents('asin.txt');
 $lines = explode("\n", $contents);
 $tw = file_get_contents('blade/tw.txt');
-
-
 
 //Multi template pisah nggae koma
 //conto define("TEMPLATE_PDF",array("tema_1","tema_0","tema_2"));
 //conto ke 2 define("TEMPLATE",array("tema_1","tema_0","tema_2"));
 
-// "TEMPLATE_PDF" NGGE PDF
-// "TEMPLATE" NGGE HTML
 
-define("TEMPLATE_PDF",array("tema_1"));
-define("TEMPLATE",array("tema_0"));
+define("TEMPLATE",array("medium","medium2","medium3","medium4","medium5","medium6","medium7","medium9","medium8","medium10"));
+define("TEMPLATE_PDF",array("tema_0"));
 define("ISI_ARTICLE", 2000);  
 define("BACK_DATE",			            "-3 month");
 define("SHEDULE_DATE",		            "+0 month");
-define("LP",               "https://neobook.tech/");
+define("LP",               "https://neobook.tech/?book=");
 
 define("MAX_HEIGHT",			            420);
 define("MAX_WIDTH",		            380);
@@ -78,6 +74,11 @@ switch ($argv[1]) {
         $data = goodapii("pdf",LP);
         csv_writer($data,"Data");
         //print_r($data);
+        echo "\nTotal Line Csv ".count($data)."\n";
+    break;
+    case 'feed':
+        $data = goodapii("feed",LP);
+        csv_writer($data,"Data");
         echo "\nTotal Line Csv ".count($data)."\n";
     break;
     case 'pin':
